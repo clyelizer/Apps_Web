@@ -1,0 +1,6 @@
+1) tape la souris:
+Cliquer le plus vite possible sur une taupe (ou une souris) qui apparaît aléatoirement à l'écran,
+avant qu'elle ne disparaisse ou change de position.
+difficulte ajustable
+2) tape bien la taupe:
+Simialaire au premier mais avec nombre specifique de coups

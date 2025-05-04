@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PassWorder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- form qui demande, nom, prenom,age,motdepasse, qui ajoute dans tab et option de
+delete / update infos  -->
+
+<body>    
+    <p class="avertissement "></p>
+    FirstName:<br> <input type="text" name="fname" id="fname" placeholder="Saisir prenom valide"><br><br>
+    LastName:<br> <input type="text" name="lname" id="lname" placeholder="Saisir nom valide"><br><br>
+    Age:<br> <input type="number" name="age" id="age" placeholder="Saisir nbre d'annee"><br><br>
+    Password:<br> <input type="password" name="pass" id="pass" placeholder="Saisir mot de passe valide"><br>
+    <button id="afficher_cacher"  type="button">Afficher</button><br><br><br>
+    <button  id="ajouter" type="button" style="margin-left: 50px;">Ajouter</button>
+    
+    <table id="entete_tab" >
+        <tr >
+            <th>FirstName</th>
+            <th>LastName</th>
+            <th>Age</th>
+            <th>Password</th>
+            <th class="delete">-</th>
+            <th id="update">-</th>
+        </tr>
+    </table>
+    
+    <script src="a.js"></script>
+
+    
+</body>
+</html>

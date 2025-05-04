@@ -1,0 +1,90 @@
+
+div{
+    margin: 10px;
+}
+
+#title{
+    color: rgb(210, 33, 13);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+   /* 1)  */
+label{
+    font-weight: bold;
+    color: rgb(18, 146, 231);
+
+}
+ /* 2) */
+.container_score input{
+    width: 80px;
+    color: white;
+    background-color: rgb(18, 146, 231);
+    border-radius: 8px;
+
+}  /*1) et 2) pour le score et son label */
+
+   /* Gestion des propriete de style de la souris */
+#souris{
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 300px;
+}
+#souris:active{
+    transform: translate(3px,3px);
+
+}
+
+
+    /* GESTION du button COMMENCER */
+
+.start_btn:hover{
+    transform: translate(4px,4px);
+    background-color: rgb(176, 12, 15);
+    color: aliceblue;
+}
+
+
+.btn_page_active{
+    visibility: visible;    
+}
+
+
+
+/* avertissement si lutilisateur ne selectionne pas les infos */
+.avertissement{
+    background-color: rgb(215, 109, 109); 
+    color: white;
+    border-radius: 6px;
+    text-align: center;
+    display: inline-block;
+}
+
+/* GESTION du button COMMENCER */
+
+.start_btn:hover{
+    transform: translate(4px,4px);
+    background-color: rgb(176, 12, 15);
+    color: aliceblue;
+}
+
+.start_btn{
+    width: 120px;
+    font-size: large;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: groove;
+    color: black;
+    background-color: rgb(18, 146, 231);
+    border-radius: 15px;
+}
+
+
+
+/*Pour desactiver une page */
+.hidden {
+    visibility: hidden;
+    display: none;
+}
+
+

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tape_la_Souris</title>
+    <link rel="stylesheet" href="souris.css">
+    <link rel="icon" href="assets/267.ico" type="image/x-icon">
+</head>
+<body>
+    <p id="avertissement"> </p>
+    <p id="indication" class="avertissement hidden">Choisir et Changer la <strong>Difficulté</strong> à tout moment</p>
+    <p id="title">Tape la Souris !!</p>
+    <img id="souris" class="hidden" src="assets/souris.jpg">
+   
+    <div>
+        <fieldset style="display: inline" >
+            <legend>Difficulte</legend>
+                <input type="radio" name="difficulty" id="facile" value="facile">
+                <label  for="facile">Facile</label>
+    
+                <input type="radio" name="difficulty" id="moderee" value="moderee">
+                <label for="moderee">Moderee</label>
+    
+                <input type="radio" name="difficulty" id="difficile" value="difficile">
+                <label for="difficile">Difficile</label>
+        </fieldset>
+    </div>
+    <div  class=" hidden container_score">
+            <label for="text">Score:</label>
+            <input type="text" name="score" id="score"  value="0" disabled>
+    </div>
+    <input type="button" class="start_btn " id="button"  value="Commencer!" title="cliquez pour commencer une partie">
+
+    <script src="souris.js"></script>
+   
+</body>
+</html>

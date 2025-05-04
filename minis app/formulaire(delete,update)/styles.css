@@ -1,0 +1,38 @@
+
+.avertissement{ /*la phrase avertissement sur les infos saisies */
+    display:none;
+}
+
+.succes{
+    color: green;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+
+}
+
+.echec{
+    color: red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: block;
+}
+
+
+table {
+    margin-top: 20px;
+    border-collapse:collapse;
+}
+th{
+    background-color: rgb(192, 183, 183);
+    padding: 3px;
+
+}
+td,th{
+    border: solid 1px;
+}
+
+img{
+    width: 20px;
+    height: 20px;
+    padding-left: 15px;
+    cursor: pointer;
+}

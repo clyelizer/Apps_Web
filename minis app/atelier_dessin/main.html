@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atelier dessin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!-- form qui demande, nom, prenom,age,motdepasse, qui ajoute dans tab et option de
+delete / update infos  -->
+
+<body>    
+    <p id="avert">Pour ne pas perdre votre travail<br>Veuillez ne pas zoomer,dezoomer ou redimenssionner la page</p>
+   <div class="bts_contenaire active">
+    <button type="button" id="Pinceau">Pinceau</button>
+    <button type="button" id="Gomme">Gomme</button>
+    <button type="button" id="Reset">Reset</button>
+    <button type="button" id="Couleurs">Couleurs</button>
+    <button type="button" id="Dark-Clair">Dark/Clair</button>
+    <button type="button" id="Mode_Zen">Mode Zen</button>
+   </div>
+    <div class="main_contenaire">
+        <div class="palette ">
+            <div  class="p" style="background:red;" ></div>
+            <div class="p"  style="background:blue;"></div>
+            <div class="p"  style="background:green;"></div>
+            <div class="p"  style="background:yellow;"></div>
+            <div class="p"  style="background:black;"></div>
+        </div>
+        <canvas id="drawingCanvas" width="700" height="500"></canvas>
+   </div>
+    <script src="a.js"></script>
+
+    
+</body>
+</html>

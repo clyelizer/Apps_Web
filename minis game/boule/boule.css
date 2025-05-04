@@ -1,0 +1,71 @@
+#boule{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    position: absolute;
+}
+
+#panier{
+    width: 200px;
+    height: 150px;
+    transform: rotate(-86deg);
+    position: absolute;
+    top:450px;
+    left: 1550px;
+}
+
+
+.bh{
+    width: 700px;
+   height: 100px;    
+   position: absolute;
+
+}
+.bv{
+    width: 100px;
+   height: 400px;    
+   position: absolute;
+
+}
+
+#bh1{
+    top: 70px;
+    left: 100px;
+    
+}
+
+#bh2{
+    top: 10px;
+    left: 100px;
+    
+}
+
+
+#bv1{
+    left: 750px;
+    top: 120px;
+    
+}
+
+#bv2{
+    left: 815px;
+    top: 55px;
+    
+}
+
+
+
+#bh3{
+    top: 400px;
+    left: 865px;
+    
+}
+
+#bh4{
+    top: 470px;
+    left: 800px;
+    
+}
+

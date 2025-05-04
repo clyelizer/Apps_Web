@@ -1,0 +1,68 @@
+body{
+    width: 900px;
+    margin: auto;
+    padding-top: 3%;
+}
+
+p{
+    color: rgb(201, 49, 7);
+    font-family:'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+button{
+    margin: 15px  ;
+    padding: 5px;
+    border-radius: 6px;
+    background-color: rgba(176, 192, 240, 0.636);
+    border: groove;
+    cursor: pointer;
+}
+
+.bts_contenaire{
+    background-color: rgba(181, 201, 230, 0.561);
+    border-top-right-radius: 10px;
+    border-top-left-radius:10px ;
+
+}
+
+.main_contenaire{
+    display: flex;
+    width: 896px;
+    height: 600px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 2px solid;
+}
+
+.palette div{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top:20px;
+    
+}
+.palette div:hover{
+    transform: translate(2px,4px);
+    cursor: pointer;
+
+}
+.palette{
+    background-color: rgba(181, 201, 230, 0.561);
+    display: inline-block;
+    height: 560px;
+    padding: 20px;
+    position: relative;
+}
+
+.checked_p {
+    border: solid 4px rgb(219, 21, 241);
+  }
+  
+
+.disabled{
+    display: none;
+}
+.active{
+    display: block;
+}
